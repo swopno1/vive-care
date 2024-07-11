@@ -9,13 +9,15 @@ export default function Home() {
 
       <section className="remove-scrollbar container my-auto">
         <div className="sub-container max-w-[496px]">
-          <Image
-            src="/assets/icons/logo-full.svg"
-            height={1000}
-            width={1000}
-            alt="patient"
-            className="mb-12 h-10 w-fit"
-          />
+          <Link href="/">
+            <Image
+              src="/assets/icons/logo-full.svg"
+              height={1000}
+              width={1000}
+              alt="logo"
+              className="h-10 w-fit"
+            />
+          </Link>
           <PatientForm />
 
           <div className="text-14-regular mt-20 flex justify-between">
